@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    max-width: 1440px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    /* width: 100%;
+    height: 100px;
+    align-items: center; */
+}
+
+.navlink, .navlink-button{
+    color: white;
+    text-decoration: none;
+}
+
+.navlink-button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.landing-page {
+    height: 750px;
+    max-width: 100%;
+    background-image: url('/Images/Landing_Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+}
+
+.order-button-container {
+    padding-top: 25%;
+    height: 600px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+.order-button-text {
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', serif;
+    line-height: 125%;
+    font-weight: bold;
+}
+
+.order-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7.5px;
+    padding: 5px 30px 5px 30px;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+}
+
+.locations {
+    height: 750px;
+    /* background-color: orange; */
+    border: 5px solid red;
+}
+
+.locations-font {
+    color: black;
+}
+
+.locations-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.locations-children-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.locations-children {
+    width: 30%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.location-container {
+    /* margin-top: 50%; */
+}
+
+.locations-header {
+    background-color: green;
+    height: 350px;
+}
