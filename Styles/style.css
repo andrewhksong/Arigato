@@ -71,7 +71,8 @@ body {
 .locations-title {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 15%;
+    margin-bottom: 5%;
 }
 
 .locations-children-container {
@@ -81,18 +82,56 @@ body {
 
 .locations-children {
     width: 30%;
-    height: 350px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
 }
 
-.location-container {
-    /* margin-top: 50%; */
+.container-news {
+    background: linear-gradient(#980101,#630202);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
-.locations-header {
-    background-color: green;
-    height: 350px;
+.link, .news-headline, .news-metainfo {
+    color: white;
+    font-family: 'Raleway', serif;
+}
+
+.news-headline {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.news-metainfo {
+    font-size: 18px;
+    max-width: 55%;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:link {
+    color: white;
+}
+
+.roseville-location {
+    background-image: url('/Images/Roseville.png');
+}
+
+.gold-river-location {
+    background-image: url('/Images/Gold\ River.png');
+}
+
+.sacramento-location {
+    background-image: url('/Images/Sacramento.png');
 }
