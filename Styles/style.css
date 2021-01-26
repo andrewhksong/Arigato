@@ -186,3 +186,47 @@ a:link {
     border-radius: 10px;
     padding: 5px 30px 5px 30px;
 }
+
+.socials {
+    height: 750px;
+    width: 100%;
+    border: 5px solid green;
+    background-color: green;
+}
+
+.socials-container {
+    border: 5px solid orange;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-images-container {
+    border: 5px solid red;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-headers-main {
+    width: 100%;
+}
+
+.social-socials {
+    width: 100%;
+}
+
+.social-images-headers {
+    border: 5px solid blue;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.social-images {
+    border: 5px solid orange;
+}
