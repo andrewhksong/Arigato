@@ -60,7 +60,6 @@ body {
 
 .locations {
     height: 750px;
-    /* background-color: orange; */
     border: 5px solid red;
 }
 
@@ -134,4 +133,56 @@ a:link {
 
 .sacramento-location {
     background-image: url('/Images/Sacramento.png');
+}
+
+.about-us {
+    border: 5px solid blue;
+    height: 750px;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    height: 750px;
+}
+
+.images-child, .info-child {
+    width: 100%;
+}
+
+.about-us-title, .about-us-info, .about-us-description {
+    font-family: 'Raleway', serif;
+}
+
+.about-us-title {
+    font-size: 18px;
+    line-height: auto;
+    letter-spacing: 5%;
+    font-weight: 500;
+    color: #828282;
+}
+
+.about-us-info {
+    font-size: 36px;
+    line-height: auto;
+    letter-spacing: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+.about-us-description {
+    font-size: 18px;
+    line-height: 161%;
+    letter-spacing: 10%;
+    color: black;
+}
+
+.about-us-button {
+    background-color: #7D0000;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
 }
