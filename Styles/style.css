@@ -196,15 +196,20 @@ a:link {
 
 .socials-container {
     border: 5px solid orange;
-    height: 375px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-image: url('/Images/Firefly\ Roll\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social-images-container {
     border: 5px solid red;
-    height: 375px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,4 +234,36 @@ a:link {
 
 .social-images {
     border: 5px solid orange;
+}
+
+.postmates-header ,.postmates-button ,.postmates-meta {
+    color: white;
+}
+
+.postmates-header {
+    font-family: 'Raleway', serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: auto;
+    letter-spacing: 8%;
+}
+
+.postmates-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: auto;
+    letter-spacing: 5%;
+}
+
+.postmates-meta {
+    width: 80%;
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    line-height: 104.8%;
+    letter-spacing: 8%;
 }
