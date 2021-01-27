@@ -316,3 +316,71 @@ a:link {
 .si-images-six {
     background-image: url('/Images/Mask\ Group\ \(5\).png');
 }
+
+.footer {
+    height: 750px;
+    background-color: #3F3F3F;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials {
+
+}
+
+.footer-locations {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-one ,.location-two ,.location-three {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-header {
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: auto;
+    letter-spacing: 5%;
+}
+
+.location-meta {
+    font-family: 'Raleway', serif;
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 5%;
+}
+
+.footer-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer-disclaimer {
+    width: 100%;
+    background-color: red;
+}
+
+.disclaimer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 5%;
+}
+
+.line {
+    background: white;
+}
