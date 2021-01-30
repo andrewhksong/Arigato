@@ -1,26 +1,32 @@
-body {
+* {
     margin: 0;
+}
+
+body {
     max-width: 1440px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    /* width: 100%;
-    height: 100px;
-    align-items: center; */
+    background-color: #000000;
+}
+
+.navbar-brand {
+    width: 300px;
+}
+
+.navlink-container {
+    width: 700px;
 }
 
 .navlink, .navlink-button{
     color: white;
     text-decoration: none;
+    padding: 5px 5px;
 }
 
 .navlink-button {
     border: 1px solid white;
     border-radius: 5px;
-    padding: 5px 5px;
 }
 
 .landing-page {
@@ -30,7 +36,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    /* background-attachment: fixed; */
 }
 
 .order-button-container {
@@ -191,11 +196,10 @@ a:link {
     height: 750px;
     width: 100%;
     border: 5px solid green;
-    background-color: green;
 }
 
 .socials-container {
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -208,7 +212,7 @@ a:link {
 }
 
 .social-images-container {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -239,15 +243,11 @@ a:link {
 }
 
 .social-images-headers {
-    border: 5px solid blue;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+    /* border: 5px solid blue; */
 }
 
 .social-images {
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     width: 100%;
     height: 200px;
     display: flex;
@@ -318,22 +318,34 @@ a:link {
 }
 
 .footer {
-    height: 750px;
+    height: 100%;
     background-color: #3F3F3F;
+    border: 5px solid orange;
 }
 
 .footer-header {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .footer-socials {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+}
 
+.fa-yelp ,.fa-instagram {
+    color: white;
+    padding: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .footer-locations {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .location-one ,.location-two ,.location-three {
@@ -342,6 +354,7 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 30%;
 }
 
 .location-header {
@@ -364,6 +377,12 @@ a:link {
     display: flex;
     justify-content: space-evenly;
     color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.footer-header {
+
 }
 
 .footer-disclaimer {
@@ -377,10 +396,12 @@ a:link {
     justify-content: center;
     font-family: 'Raleway', serif;
     font-size: 16px;
-    line-height: auto;
-    letter-spacing: 5%;
 }
 
 .line {
     background: white;
+}
+
+.arigato {
+    margin-top: 5%;
 }
