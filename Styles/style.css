@@ -63,6 +63,36 @@ body {
     padding: 5px 35px 5px 35px;
 }
 
+.container-news {
+    background: linear-gradient(#980101,#630202);
+    flex-direction: column;
+}
+
+.link, .news-headline, .news-metainfo {
+    font-family: 'Raleway', serif;
+    color: white;
+}
+
+.news-headline {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.news-metainfo {
+    font-size: 18px;
+    width: 62%;
+    text-align: center;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a:link {
+    color: white;
+}
+
 .locations {
     height: 750px;
     border: 5px solid red;
@@ -91,41 +121,6 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid red;
-}
-
-.container-news {
-    background: linear-gradient(#980101,#630202);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-}
-
-.link, .news-headline, .news-metainfo {
-    color: white;
-    font-family: 'Raleway', serif;
-}
-
-.news-headline {
-    font-weight: 900;
-    font-size: 30px;
-}
-
-.news-metainfo {
-    font-size: 18px;
-    max-width: 55%;
-}
-
-.link {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-a:link {
-    color: white;
 }
 
 .roseville-location {
