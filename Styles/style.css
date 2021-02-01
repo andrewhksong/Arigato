@@ -318,9 +318,7 @@ a:link {
 }
 
 .footer {
-    height: 100%;
     background-color: #3F3F3F;
-    border: 5px solid orange;
 }
 
 .footer-header {
@@ -329,21 +327,21 @@ a:link {
 }
 
 .footer-socials {
-    /* height: 100px; */
     display: flex;
     justify-content: center;
+    padding: 5%;
+}
+
+.footer-socials-children {
+    padding: 2.5%;
 }
 
 .fa-yelp ,.fa-instagram {
     color: white;
-    padding: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
 }
 
 .footer-locations {
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-evenly;
     width: 100%;
 }
@@ -357,22 +355,32 @@ a:link {
     width: 30%;
 }
 
-.location-header {
+.location-header, .location-meta, .footer-navbar, .disclaimer, .covid-disclaimer {
     font-family: 'Raleway', serif;
+}
+
+.location-header {
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: 800;
     line-height: auto;
     letter-spacing: 5%;
 }
 
 .location-meta {
-    font-family: 'Raleway', serif;
     font-size: 14px;
+    font-weight: 400;
     line-height: auto;
     letter-spacing: 5%;
+    text-align: center;
+}
+
+.line {
+    background: white;
 }
 
 .footer-navbar {
+    font-size: 16px;
+    font-weight: 600;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -381,27 +389,27 @@ a:link {
     margin-bottom: 1%;
 }
 
-.footer-header {
-
+.arigato {
+    margin-top: 5%;
 }
 
 .footer-disclaimer {
-    width: 100%;
     background-color: red;
+    height: 100%;
 }
 
 .disclaimer {
+    margin: 0;
     color: white;
     display: flex;
     justify-content: center;
     font-family: 'Raleway', serif;
     font-size: 16px;
+    font-weight: 700;
 }
 
-.line {
-    background: white;
-}
-
-.arigato {
-    margin-top: 5%;
+.covid-disclaimer {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
 }
