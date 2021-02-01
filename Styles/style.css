@@ -100,8 +100,8 @@ a:link {
 .locations-title {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    padding-top: 20%;
+    padding-bottom: 5%;
 }
 
 .locations-font {
@@ -144,6 +144,7 @@ a:link {
 .about-us {
     border: 5px solid blue;
     height: 750px;
+    background-image: url('/Images/Rectangle\ 42\ \(4\).png');
 }
 
 .about-us-container {
@@ -159,38 +160,50 @@ a:link {
     width: 100%;
 }
 
-.about-us-title, .about-us-info, .about-us-description {
+.images-child {
+    height: 100%;
+    background-image: url('/Images/Group\ 59\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 1px solid red;
+}
+
+.about-us-title, .about-us-info, .about-us-description, .about-us-button {
     font-family: 'Raleway', serif;
 }
 
 .about-us-title {
     font-size: 18px;
+    font-weight: 600;
     line-height: auto;
     letter-spacing: 5%;
-    font-weight: 500;
     color: #828282;
 }
 
 .about-us-info {
     font-size: 36px;
+    font-weight: 700;
     line-height: auto;
     letter-spacing: 5%;
-    font-weight: bold;
     color: black;
 }
 
 .about-us-description {
     font-size: 18px;
+    font-weight: 500;
     line-height: 161%;
     letter-spacing: 10%;
     color: black;
 }
 
 .about-us-button {
-    background-color: #7D0000;
+    font-size: 18px;
+    font-weight: 600;
     color: white;
+    background-color: #7D0000;
     border-radius: 10px;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 40px 5px 40px;
 }
 
 .socials {
