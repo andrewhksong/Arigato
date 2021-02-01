@@ -142,7 +142,6 @@ a:link {
 }
 
 .about-us {
-    border: 5px solid blue;
     height: 750px;
     background-image: url('/Images/Rectangle\ 42\ \(4\).png');
 }
@@ -152,7 +151,6 @@ a:link {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
     height: 750px;
 }
 
@@ -166,7 +164,6 @@ a:link {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    border: 1px solid red;
 }
 
 .about-us-title, .about-us-info, .about-us-description, .about-us-button {
@@ -205,16 +202,16 @@ a:link {
     border-radius: 10px;
     padding: 5px 40px 5px 40px;
 }
-
+/* socials */
 .socials {
     height: 750px;
     width: 100%;
     border: 5px solid green;
+    padding-top: 100px;
 }
 
 .socials-container {
-    /* border: 5px solid orange; */
-    height: 200px;
+    height: 225px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,10 +220,50 @@ a:link {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    padding-top: 5%;
+}
+
+.postmates-header ,.postmates-button ,.postmates-meta {
+    font-family: 'Raleway', serif;
+    color: white;
+}
+
+.postmates-title {
+    display: flex;
+}
+
+.postmates-logo {
+    height: 46px;
+    padding-top: 15px;
+}
+
+.postmates-header {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: auto;
+    letter-spacing: 8%;
+}
+
+.postmates-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 5%;
+}
+
+.postmates-meta {
+    width: 80%;
+    font-size: 16px;
+    line-height: 104.8%;
+    letter-spacing: 8%;
+    padding-top: 2%;
 }
 
 .social-images-container {
-    /* border: 5px solid red; */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -265,38 +302,6 @@ a:link {
     width: 100%;
     height: 200px;
     display: flex;
-}
-
-.postmates-header ,.postmates-button ,.postmates-meta {
-    color: white;
-}
-
-.postmates-header {
-    font-family: 'Raleway', serif;
-    font-size: 36px;
-    font-weight: bolder;
-    line-height: auto;
-    letter-spacing: 8%;
-}
-
-.postmates-button {
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px 25px 5px 25px;
-    font-family: 'Raleway', serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: auto;
-    letter-spacing: 5%;
-}
-
-.postmates-meta {
-    width: 80%;
-    font-family: 'Raleway', serif;
-    font-size: 16px;
-    line-height: 104.8%;
-    letter-spacing: 8%;
 }
 
 .si-images-one ,.si-images-two ,.si-images-three ,.si-images-four ,.si-images-five ,.si-images-six {
