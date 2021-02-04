@@ -437,3 +437,40 @@ a:link {
     line-height: 30px;
     letter-spacing: 10%;
 }
+
+.our-story {
+    height: 750px;
+}
+
+.our-story-container {
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-story-child-image {
+    height: 100%;
+    background-image: url('/Images/Group\ 61.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.our-story-header, .our-story-meta {
+    font-family: 'Raleway', serif;
+}
+
+.our-story-header {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.our-story-meta {
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 8%;
+}
