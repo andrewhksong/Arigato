@@ -474,3 +474,41 @@ a:link {
     line-height: 30px;
     letter-spacing: 8%;
 }
+
+.menu-header {
+    height: 350px;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url('/Images/Rectangle\ 41.png');
+}
+
+.menu-header-text, .menu-header-meta, .menu-header-info-meta {
+    font-family: 'Raleway', serif;
+}
+
+.menu-header-text {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5%;
+}
+
+.menu-header-meta {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5%;
+}
+
+.menu-header-info {
+    display: flex;
+    justify-content: center;
+}
+
+.chilli {
+    height: 100%;
+}
+
+.menu-header-info-meta {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5%;
+}
