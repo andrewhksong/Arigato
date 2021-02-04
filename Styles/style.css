@@ -413,3 +413,27 @@ a:link {
     font-size: 16px;
     font-weight: 700;
 }
+
+.brand-values {
+    height: 350px;
+    padding-top: 150px;
+    background-image: url('/Images/Rectangle\ 41.png');
+}
+
+.brand-header, .brand-meta {
+    font-family: 'Raleway', serif;
+    text-align: center;
+}
+
+.brand-header {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 5%;
+}
+
+.brand-meta {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 10%;
+}
