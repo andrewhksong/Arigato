@@ -512,3 +512,54 @@ a:link {
     font-weight: 700;
     letter-spacing: 5%;
 }
+
+.menu {
+    height: 4000px;
+    border: 5px solid red;
+    padding-top: 50px;
+}
+
+.sections-1 {
+    
+}
+
+.drinks-header {
+    background-image: url('/Images/Mask\ Group\ \(10\).png');
+    height: 200px;
+}
+
+.section-header, .section-header-child, .menu-item {
+    font-family: 'Raleway', serif;
+}
+
+.section-header-meta {
+    font-weight: 400;
+}
+.section-header {
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+.line-black {
+    background: black;
+}
+
+.section-header-child {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menu-row {
+    height: 100px;
+}
+
+.menu-item {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menu-item-meta {
+    font-weight: 400;
+}
