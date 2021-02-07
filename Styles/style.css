@@ -504,7 +504,8 @@ a:link {
 }
 
 .chilli {
-    height: 100%;
+    width: 25px;
+    height: 25px;
 }
 
 .menu-header-info-meta {
@@ -552,13 +553,15 @@ a:link {
 }
 
 .menu-row {
-    height: 165px;
+    height: 125px;
+    /* border: 1px solid blue; */
 }
 
 .menu-item {
     font-size: 18px;
     font-weight: 700;
     margin: 0;
+    /* border: 1px solid green; */
 }
 
 .menu-item-meta {
