@@ -528,6 +528,7 @@ a:link {
 .drinks-header {
     background-image: url('/Images/Mask\ Group\ \(10\).png');
     height: 200px;
+    border-radius: 5px;
 }
 
 .section-header, .section-header-child, .menu-item {
@@ -572,4 +573,11 @@ a:link {
 .appetizers-header {
     background-image: url('/Images/Mask\ Group\ \(11\).png');
     height: 200px;
+    border-radius: 5px;
+}
+
+.sashimi-header {
+    background-image: url('/Images/Mask\ Group\ \(12\).png');
+    height: 200px;
+    border-radius: 5px;
 }
