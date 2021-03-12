@@ -581,3 +581,15 @@ a:link {
     height: 200px;
     border-radius: 5px;
 }
+
+.lunch-header {
+    background-image: url('/Images/Mask\ Group\ \(12\).png');
+        height: 200px;
+    border-radius: 5px;
+}
+
+.lunch-and-dinner-header {
+    background-image: url('/Images/Mask\ Group\ \(12\).png');
+        height: 200px;
+    border-radius: 5px;
+}
