@@ -531,7 +531,7 @@ a:link {
     border-radius: 5px;
 }
 
-.section-header, .section-header-child, .menu-item {
+.section-header, .section-header-child, .menu-item, .additions {
     font-family: 'Raleway', serif;
 }
 
@@ -595,6 +595,12 @@ a:link {
 }
 
 .dinner-header {
+    background-image: url('/Images/Mask\ Group\ \(12\).png');
+    height: 200px;
+    border-radius: 5px;
+}
+
+.maki-header {
     background-image: url('/Images/Mask\ Group\ \(12\).png');
     height: 200px;
     border-radius: 5px;
