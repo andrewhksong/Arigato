@@ -604,3 +604,70 @@ a:link {
     height: 200px;
     border-radius: 5px;
 }
+
+.location-card {
+    padding-top: 150px;
+    height: 600px;
+}
+
+.location-card-image {
+    height: 387px;
+    border-radius: 15px;
+}
+
+.location-card-header, .location-card-meta, .location-card-phone, .location-card-key, .affiliate {
+    font-family: 'Raleway', serif;
+}
+
+.location-card-header {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5%;
+}
+
+.location-card-meta {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 5%;
+    line-height: 73.2%;
+}
+
+.location-card-phone {
+    font-size: 18px;
+    letter-spacing: 5%;
+    line-height: 73.2%;
+    color: #630202;
+}
+
+.phone {
+    height: 16px;
+}
+
+.location-card-key {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5%;
+    line-height: 73.2%;
+}
+
+.location-button {
+    border-radius: 7.5px;
+    border-color: #630202;
+    color: #630202;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px
+}
+
+.affiliate {
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.location-card {
+    height: 600px;
+    padding-top: 150px;
+    background-image: url('/Images/Rectangle\ 41.png');
+}
