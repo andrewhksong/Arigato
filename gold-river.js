@@ -1,15 +1,15 @@
 // Initialize and add the map
 function initMap() {
-    // The location of Roseville
-    const roseville = { lat: 38.7704917, lng: -121.2658656 };
-    // The map, centered at Roseville
+    // The location of Gold-River
+    const goldRiver = { lat: 38.626129, lng: -121.262803 };
+    // The map, centered at Gold-River
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
-        center: roseville,
+        center: goldRiver,
     });
     // The marker
     const marker = new google.maps.Marker({
-        position: roseville,
+        position: goldRiver,
         map: map
     });
     // Zoom event listener
