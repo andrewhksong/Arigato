@@ -1,0 +1,151 @@
+/* iPad Portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    .order-button-container {
+        /* border: 1px solid white; */
+        height: 650px;
+        padding-top: 70%;
+    }
+
+    .landing-page {
+        height: 1000px;
+    }
+
+    .news-headline {
+        text-align: center;
+    }
+
+    .footer-navbar {
+        font-size: 12px;
+    }
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+    .order-button-container {
+        border: 1px solid white;
+        height: 500px;
+        padding-top: 30%;
+    }
+
+    .landing-page {
+        height: 700px;
+    }
+
+    .news-headline {
+        text-align: center;
+    }
+}
+
+/* iPhone X Portrait */
+/* @media only screen and (max-width : 375px) {
+    .order-button-container {
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .landing-page {
+        height: 1000px;
+    }
+
+    .news-headline {
+        text-align: center;
+    }
+
+    .locations {
+        height: 500px;
+    }
+
+    .locations-title {
+        padding-top: 50%;
+    }
+
+    .locations-font {
+        text-align: center;
+    }
+
+    .locations-children {
+        height: 100px;
+    }
+    
+    .locations-name {
+        font-size: 16px;
+    }
+
+    .about-us-container {
+        display: grid;
+    }
+
+    .images-child {
+        height: 275px;
+    }
+
+    .socials {
+        height: 600px;
+    }
+
+    .socials-container {
+        height: 175px;
+    }
+
+    .postmates-header {
+        font-size: 17px;
+    }
+
+    .postmates-logo {
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .postmates-meta {
+        font-size: 12px;
+    }
+
+    .social-headers-main {
+        font-size: 20px;
+    }
+
+    .location-header {
+        font-size: 12px;
+    }
+
+    .footer-socials {
+        padding: 25px;
+    }
+
+    .footer-locations {
+        align-items: start;
+    }
+
+    .footer-address {
+        height: 150px;
+    }
+
+    .footer-navbar {
+        font-size: 7.5px;
+        margin-bottom: 2%;
+    }
+} */
+
+/* iPhone X Landscape */
+/* @media only screen and (max-width : 812px) {
+    .order-button-container {
+        height: 500px;
+        padding-top: 15%;
+    }
+
+    .landing-page {
+        height: 700px;
+    }
+
+    .news-headline {
+        text-align: center;
+    }
+
+    .locations {
+        height: 400px;
+    }   
+    
+    .locations-title {
+        padding-top: 25%;
+    }
+} */
