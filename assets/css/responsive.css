@@ -29,6 +29,10 @@
     .location-card-meta {
         line-height: 100%;
     }
+
+    .menu-row {
+        height: 150px;
+    }
 }
 
 /* iPad Landscape */
@@ -189,6 +193,26 @@
 
     .location-card-extra {
         margin-left: -15px;
+    }
+
+    .menu-row {
+        height: 180px;
+    }
+
+    .menu-item {
+        font-size: 14px;
+    }
+
+    .menu-item-meta {
+        font-size: 14px;
+    }
+    .chilli {
+        height: 10px;
+        width: 10px;
+    }
+
+    .menu-header {
+        padding-top: 200px;
     }
 }
 
