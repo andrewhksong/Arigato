@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
     // The location of Sacramento
-    const sacramento = { lat: 38.5949384, lng: -121.415196 };
+    const sacramento = { lat: 38.595316, lng: -121.415035 };
     // The map, centered at Sacramento
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,

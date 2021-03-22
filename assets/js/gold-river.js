@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
     // The location of Gold-River
-    const goldRiver = { lat: 38.626129, lng: -121.262803 };
+    const goldRiver = { lat: 38.6258848, lng: -121.2636649 };
     // The map, centered at Gold-River
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,

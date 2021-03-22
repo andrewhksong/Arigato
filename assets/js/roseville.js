@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
     // The location of Roseville
-    const roseville = { lat: 38.7704917, lng: -121.2658656 };
+    const roseville = { lat: 38.6258848, lng: -121.2636649 };
     // The map, centered at Roseville
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,

@@ -11,7 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,7 +28,7 @@
     <nav class="navbar fixed-top">
         <div class="container">
             <a href="/index.html" class="navbar-brand">
-                <img src="./Images/Group 11.png" alt="Arigato Logo">
+                <img src="/assets/images/brand.png" alt="Arigato Logo">
             </a>
             <div class="navlink-container d-flex justify-content-between ">
                 <button class="navbar-toggler navlink" type="button" data-toggle="collapse"
@@ -40,14 +41,14 @@
                     aria-label="Toggle navigation">
                     <a class="navlink">LOCATION</a>
                 </button>
-                <a href="/about-us.html" class="navlink">ABOUT US</a>
+                <a href="/assets/components/about-us.html" class="navlink">ABOUT US</a>
                 <a href="" class="navlink-button">ORDER ONLINE</a>
             </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="container">
                     <div class="row">
                         <div class="col-6">
-                            <a href="/menu.html">
+                            <a href="/assets/components/menu.html">
                                 <p class="navlink d-flex justify-content-end">Full Menu</p>
                             </a>
                             <a href="#section-2">
@@ -81,13 +82,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <a href="/roseville.html">
+                            <a href="/assets/components/roseville.html">
                                 <p class="navlink d-flex justify-content-center">Roseville</p>
                             </a>
-                            <a href="/gold-river.html">
+                            <a href="/assets/components/gold-river.html">
                                 <p class="navlink d-flex justify-content-center">Gold River</p>
                             </a>
-                            <a href="/sacramento.html">
+                            <a href="/assets/components/sacramento.html">
                                 <p class="navlink d-flex justify-content-center">Sacramento</p>
                             </a>
                         </div>
@@ -174,7 +175,7 @@
             <div class="socials-container">
                 <div class="postmates-title">
                     <p class="postmates-header">STAY AT HOME AND POSTMATES IT</p>
-                    <img src="./Images/Postmates Logo.png" alt="Postmates logo" class="postmates-logo">
+                    <img src="./assets/images/postmates-brand.png" alt="Postmates logo" class="postmates-logo">
                 </div>
                 <button class="postmates-button">ORDER DELIVERY</button>
                 <p class="postmates-meta">
@@ -205,7 +206,7 @@
     <div class="footer">
         <div class="container">
             <div class="footer-header">
-                <img src="./Images/Layer 9.png" alt="Arigato" class="img-fluid arigato">
+                <img src="/assets/images/brand-name.png" alt="Arigato" class="img-fluid arigato">
             </div>
             <div class="footer-socials">
                 <a href="https://www.instagram.com/arigato.sushi.sac/?hl=en" class="footer-socials-children">
@@ -220,13 +221,17 @@
                     <p class="location-header">
                         ROSEVILLE
                     </p>
-                    <p class="location-meta">
-                        Ridge at Creekside
-                        <br>
-                        1136 Galleria Blvd,
-                        <br>
-                        Roseville, CA 95678
-                    </p>
+                    <a href="https://maps.google.com/?q=2121 Golden Centre Ln #70, Gold River, CA 95670"
+                        class="footer-address">
+                        <p class="location-meta">
+                            Ridge at Creekside
+                            <br>
+                            1136 Galleria Blvd,
+                            <br>
+                            Roseville, CA 95678
+                        </p>
+
+                    </a>
                     <p class="location-meta">
                         MON-THURS
                         <br>
@@ -242,13 +247,16 @@
                     <p class="location-header">
                         GOLD RIVER
                     </p>
-                    <p class="location-meta">
-                        Gold River Town Center
-                        <br>
-                        2121 Golden Centre Ln
-                        <br>
-                        #70, Gold River, CA 95670
-                    </p>
+                    <a href="http://maps.google.com/?q=2121 Golden Centre Ln #70, Gold River, CA 95670"
+                        class="footer-address">
+                        <p class="location-meta">
+                            Gold River Town Center
+                            <br>
+                            2121 Golden Centre Ln
+                            <br>
+                            #70, Gold River, CA 95670
+                        </p>
+                    </a>
                     <p class="location-meta">
                         MON-THURS
                         <br>
@@ -264,13 +272,15 @@
                     <p class="location-header">
                         SACRAMENTO
                     </p>
-                    <p class="location-meta">
-                        Arden Howe Plaza
-                        <br>
-                        1608 Howe Ave.
-                        <br>
-                        Sacramento, CA 95825
-                    </p>
+                    <a href="http://maps.google.com/?q=1608 Howe Ave. Sacramento, CA 95825" class="footer-address">
+                        <p class="location-meta">
+                            Arden Howe Plaza
+                            <br>
+                            1608 Howe Ave.
+                            <br>
+                            Sacramento, CA 95825
+                        </p>
+                    </a>
                     <p class="location-meta">
                         MON-THURS
                         <br>
@@ -285,10 +295,10 @@
             </div>
             <hr class="line">
             <div class="footer-navbar">
-                <a href="/menu.html" class="footer-navbar">MENU</a>
+                <a href="/assets/components/menu.html" class="footer-navbar">MENU</a>
                 <a href="#" class="footer-navbar">LOCATIONS</a>
                 <a href="#" class="footer-navbar">ORDER ONLINE</a>
-                <a href="/about-us.html" class="footer-navbar">ABOUT US</a>
+                <a href="/assets/components/about-us.html" class="footer-navbar">ABOUT US</a>
                 <a href="#" class="footer-navbar">CONTACT US</a>
                 <a href="#" class="footer-navbar">CAREERS</a>
             </div>
