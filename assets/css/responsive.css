@@ -214,6 +214,27 @@
     .menu-header {
         padding-top: 200px;
     }
+
+    .menu {
+        padding-bottom: 0px;
+    }
+
+    .brand-values {
+        height: 500px;
+        padding-top: 200px;
+    }
+
+    .our-story {
+        height: 1250px;
+    }
+
+    .our-story-container {
+        height: 1250px;
+    }
+
+    .our-story-child {
+        margin-left: 0;
+    }
 }
 
 /* iPhone X Landscape */

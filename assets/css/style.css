@@ -75,12 +75,14 @@ body {
 .news-headline {
     font-weight: 800;
     font-size: 30px;
+    letter-spacing: 1px;
 }
 
 .news-metainfo {
     font-size: 18px;
     width: 62%;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .link {
@@ -108,6 +110,7 @@ a:link {
     font-size: 30px;
     font-weight: 700;
     color: black;
+    letter-spacing: 1px;
 }
 
 .locations-parent {
@@ -173,7 +176,7 @@ a:link {
     font-size: 18px;
     font-weight: 600;
     line-height: auto;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     color: #828282;
 }
 
@@ -181,16 +184,17 @@ a:link {
     font-size: 36px;
     font-weight: 700;
     line-height: auto;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     color: black;
+    padding-bottom: 15px;
 }
 
 .about-us-description {
     font-size: 18px;
     font-weight: 500;
     line-height: 161%;
-    letter-spacing: 10%;
     color: black;
+    letter-spacing: 1px;
 }
 
 .about-us-button {
@@ -239,25 +243,25 @@ a:link {
     font-size: 36px;
     font-weight: 800;
     line-height: auto;
-    letter-spacing: 8%;
+    letter-spacing: 1px;
 }
 
 .postmates-button {
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
     padding: 5px 30px 5px 30px;
     font-size: 18px;
     font-weight: 700;
     line-height: auto;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .postmates-meta {
     width: 80%;
     font-size: 16px;
     line-height: 104.8%;
-    letter-spacing: 8%;
+    letter-spacing: 1px;
     padding-top: 2%;
 }
 
@@ -272,14 +276,14 @@ a:link {
     font-size: 30px;
     font-weight: 700;
     line-height: 45%;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .social-socials {
     width: 100%;
     font-size: 21px;
     line-height: 45%;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .social-images {
@@ -361,14 +365,14 @@ a:link {
     font-size: 18px;
     font-weight: 800;
     line-height: auto;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .location-meta {
     font-size: 14px;
     font-weight: 400;
     line-height: auto;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -426,14 +430,14 @@ a:link {
 .brand-header {
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .brand-meta {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 10%;
+    letter-spacing: 1px;
 }
 
 .our-story {
@@ -470,7 +474,7 @@ a:link {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 8%;
+    letter-spacing: 1px;
 }
 
 .menu-header {
@@ -487,13 +491,13 @@ a:link {
 .menu-header-text {
     font-size: 30px;
     font-weight: 600;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .menu-header-meta {
     font-size: 18px;
     font-weight: 600;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .menu-header-info {
@@ -509,7 +513,7 @@ a:link {
 .menu-header-info-meta {
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .menu {
@@ -614,19 +618,19 @@ a:link {
 .location-card-header {
     font-weight: bold;
     font-size: 30px;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
 }
 
 .location-card-meta {
     font-weight: normal;
     font-size: 18px;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     line-height: 73.2%;
 }
 
 .location-card-phone {
     font-size: 18px;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     line-height: 73.2%;
     color: #630202;
 }
@@ -638,7 +642,7 @@ a:link {
 .location-card-key {
     font-weight: bold;
     font-size: 18px;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     line-height: 73.2%;
 }
 
@@ -669,4 +673,8 @@ a:link {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.our-story-child {
+    margin-left: 50px;
 }
