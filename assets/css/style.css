@@ -222,7 +222,7 @@ a:link {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    padding-top: 5%;
+    padding: 2.5%;
 }
 
 .postmates-header ,.postmates-button ,.postmates-meta {
@@ -232,6 +232,7 @@ a:link {
 
 .postmates-title {
     display: flex;
+    margin-left: 2.5%;
 }
 
 .postmates-logo {
@@ -263,6 +264,7 @@ a:link {
     line-height: 104.8%;
     letter-spacing: 1px;
     padding-top: 2%;
+    text-align: center;
 }
 
 .social-headers-main ,.social-socials {
@@ -677,4 +679,9 @@ a:link {
 
 .our-story-child {
     margin-left: 50px;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-between;
 }

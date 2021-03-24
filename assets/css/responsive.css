@@ -33,6 +33,10 @@
     .menu-row {
         height: 150px;
     }
+
+    .socials-container {
+        padding: 0;
+    }
 }
 
 /* iPad Landscape */
@@ -67,24 +71,34 @@
         padding-top: 100%;
     }
 
+    .order-button {
+        font-size: 14px;
+    }
+
     .landing-page {
         height: 1000px;
     }
 
     .news-headline {
         text-align: center;
+        font-size: 24px;
+    }
+
+    .link {
+        font-size: 14px;
     }
 
     .locations {
-        height: 500px;
+        height: 600px;
     }
 
     .locations-title {
-        padding-top: 50%;
+        padding-top: 0;
     }
 
     .locations-font {
         text-align: center;
+        font-size: 24px;
     }
 
     .locations-children {
@@ -108,11 +122,11 @@
     }
 
     .socials-container {
-        height: 175px;
+        height: 200px;
     }
 
     .postmates-header {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .postmates-logo {
@@ -121,7 +135,7 @@
     }
 
     .postmates-meta {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .social-headers-main {
@@ -129,7 +143,7 @@
     }
 
     .location-header {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer-socials {
@@ -145,7 +159,7 @@
     }
 
     .footer-navbar {
-        font-size: 7.5px;
+        font-size: 7px;
         margin-bottom: 2%;
     }
 
@@ -235,6 +249,43 @@
     .our-story-child {
         margin-left: 0;
     }
+
+    .order-button-text {
+        line-height: 100%;
+    }
+
+    .news-metainfo {
+        font-size: 14px;
+    }
+
+    .disclaimer {
+        font-size: 14px;
+    }
+
+    .locations-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-title {
+        font-size: 14px;
+    }
+
+    .about-us-info {
+        font-size: 26px;
+    }
+
+    .about-us-description {
+        font-size: 14px;
+    }
+
+    .about-us-button {
+        font-size: 14px;
+    }
+
+    .postmates-button {
+        font-size: 14px;
+    }
 }
 
 /* iPhone X Landscape */
@@ -286,5 +337,9 @@
 
     .location-card-phone {
         font-size: 14px;
+    }
+
+    .postmates-header {
+        font-size: 34px;
     }
 }
