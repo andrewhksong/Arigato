@@ -553,7 +553,7 @@ a:link {
 }
 
 .menu-row {
-    height: 125px;
+    /* height: 125px; */
 }
 
 .menu-item {
@@ -684,4 +684,59 @@ a:link {
 .locations-container {
     display: flex;
     justify-content: space-between;
+}
+
+.covid-container {
+    height: 850px;
+    padding-top: 50px;
+}
+
+.covid-banner {
+    height: 275px;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url('/assets/images/about-us-banner.png');
+}
+
+.covid-header, .covid-meta, .covid-sub-two, .enforcement-header, .enforcements {
+    font-family: 'Raleway', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.covid-header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.covid-meta {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 143.3%;
+}
+
+.covid-sub-two {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 148.2%;
+    padding-bottom: 100px
+}
+
+.enforcement-header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.enforcements {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.enforcement-row {
+    display: grid;
+    justify-content: center;
+}
+
+.check-mark {
+    height: 30px;
+    padding: 5px;
 }

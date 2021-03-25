@@ -1,7 +1,6 @@
 /* iPad Portrait */
 @media only screen and (min-device-width : 768px) and (max-device-width : 768px) and (orientation:portrait) {
     .order-button-container {
-        /* border: 1px solid white; */
         height: 650px;
         padding-top: 70%;
     }
@@ -31,18 +30,46 @@
     }
 
     .menu-row {
-        height: 150px;
+        
     }
 
     .socials-container {
         padding: 0;
+    }
+
+    .covid-header {
+        font-size: 26px;
+    } 
+
+    .covid-meta, .enforcement-header {
+        font-size: 20px;
+    } 
+
+    .covid-sub-two, .enforcements {
+        font-size: 17px;
+    } 
+
+    .chilli {
+        height: 15px;
+        width: 15px;
+    }
+
+    .chilli-responsive-row {
+        width: 120px;
+    }
+
+    .chilli-responsive-row-sm {
+        width: 100px;
+    }
+
+    .chilli-responsive-row-md {
+        width: 120px;
     }
 }
 
 /* iPad Landscape */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (orientation:landscape) {
     .order-button-container {
-        /* border: 1px solid white; */
         height: 500px;
         padding-top: 30%;
     }
@@ -61,6 +88,11 @@
 
     .location-card-image {
         height: 300px;
+    }
+
+
+    .chilli-responsive-row {
+        width: 142px;
     }
 }
 
@@ -210,7 +242,7 @@
     }
 
     .menu-row {
-        height: 180px;
+    
     }
 
     .menu-item {
@@ -286,6 +318,39 @@
     .postmates-button {
         font-size: 14px;
     }
+
+    .covid-banner {
+        height: 300px;
+        padding-top: 200px;
+    }
+
+    .covid-header {
+        font-size: 22px;
+    } 
+    
+    .covid-meta, .enforcement-header {
+        font-size: 16px;
+    } 
+    
+    .covid-sub-two, .enforcements {
+        font-size: 13px;
+    } 
+
+    .fixed-container-alcohol {
+        height: 100px;
+    } 
+
+    .chilli-responsive-row {
+        width: 87px;
+    }
+
+    .chilli-responsive-row-sm {
+        width: 65px;
+    }
+
+    .chilli-responsive-row-md {
+        width: 78px;
+    }
 }
 
 /* iPhone X Landscape */
@@ -341,5 +406,21 @@
 
     .postmates-header {
         font-size: 34px;
+    }
+
+    .fixed-container-alcohol {
+        height: 100px;
+    } 
+
+    .chilli-responsive-row {
+        width: 160px;
+    }
+
+    .chilli-responsive-row-sm {
+        width: 160px;
+    }
+
+    .chilli-responsive-row-md {
+        width: 160px;
     }
 }
