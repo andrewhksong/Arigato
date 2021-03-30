@@ -21,7 +21,7 @@ Link: https://arigato.andrewsong.org/
 #### Getting Started
 1. Clone the repository.
   ```shell
-  git clone https://github.com/andrewhksong/Arigato-.git
+  git clone https://github.com/andrewhksong/Arigato.git
   cd Arigato
   ```
 2. View the application by opening ```index.html``` in your browser.
